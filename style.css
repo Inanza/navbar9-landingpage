@@ -1,0 +1,44 @@
+.container {
+    margin-top: -20px;
+}
+.nav-link {
+    font-size: 16px;
+    
+    
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #1E266D;
+    padding: 20px;
+    font-family: Halyard Text;
+}
+.text {
+    margin-top: -2px;
+    padding: 50px;
+}
+.number {
+    font-size: 16px;
+    color: #1E266D;
+    padding: 40px;
+    line-height: 5px;
+}
+.btn-primary {
+    border-radius: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        margin-top: 20px;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        color: #1E266D;
+        padding: 15px;
+        
+    }
+    .text {
+        padding: 5px;
+    }
+    .number {
+        padding: 2px;
+    }
+    
+}
